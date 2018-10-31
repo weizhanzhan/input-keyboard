@@ -1,10 +1,15 @@
 {
   "name": "input-keyboard",
   "description": "a input-keyboard plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "675398552@qq.com",
   "license": "MIT",
   "private": false,
+  "main": "dist/input-keyboard.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weizhanzhan/input-keyboard.git"
+  }, 
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
